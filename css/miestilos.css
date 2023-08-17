@@ -1,0 +1,59 @@
+body {
+    font-family: 'Rubik' sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    background: rgb(230,230,250);
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-size: 20px;
+    color: violet;
+    font-weight: 700;
+}
+
+.encabezado {
+    width: 100%;
+    height:  50xp;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imformacion {
+    width: 100%;
+    height:  100%;
+    background: brown;
+}
+
+.articulos {
+    width: 75%;
+    height:  100%;
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu {
+    width: 25%;
+    height:  100%;
+    background: red;
+    display: flex; 
+}
+
+.nota {
+    width: 40%;
+    height:  300px;
+    background: beige;
+    margin:  10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+}
